@@ -10,4 +10,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EventCore\EventCore.csproj" />
+    <ProjectReference Include="..\EventInfrastructure\EventInfrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
